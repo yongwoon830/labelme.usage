@@ -1,2 +1,6 @@
 # labelme.usage
-This repository explains how to create simple training labeling data for image segmentation using a GUI-based approach.
+This repository demonstrates how to create simple training labeling data for image segmentation using a GUI-based approach.
+The workflow is based on Labelme (https://github.com/wkentaro/labelme
+), a popular open-source annotation tool.
+
+Using Labelme, users can easily annotate images with polygon-based labels through a graphical interface, making it suitable for preparing segmentation datasets for machine learning and deep learning models.
