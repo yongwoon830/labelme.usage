@@ -22,6 +22,27 @@ This project demonstrates a GUI-based approach for annotating images with polygo
 
 ---
 
+## Project Structure
+
+The folder structure of this project is organized as follows:
+
+```text
+labelme-usage/
+├── img/                   # Original images for annotation (.jpg, .png)
+│   ├── sample_image1.jpg
+│   ├── sample_image1.json # Labelme JSON annotation file (generated after annotation)
+│   ├── sample_image2.jpg
+│   └── sample_image2.json
+├── label/                 # Generated labeling images
+│   ├── sample_image1.png
+│   └── sample_image2.png
+├── json_to_labeling.py    # Utility script to convert JSON to labeling images
+├── requirements.txt       # Python dependencies
+└── README.md              # Project documentation
+```
+
+---
+
 ## Installation & Run
 
 Follow the steps below to set up the project environment using Anaconda:
@@ -86,6 +107,12 @@ Use the selected tool to draw annotations on the image.
 ### 4. Save Annotations
 Click the **`Save`** button to store the annotation.
 After saving, a corresponding **`.json`** file will be created in the image directory, containing the annotation and label information.
+
+```text
+img/
+ ├── sample_image.jpg
+ └── sample_image.json
+ ```
 
 ---
 
