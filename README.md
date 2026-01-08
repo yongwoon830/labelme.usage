@@ -52,3 +52,49 @@ Follow the steps below to set up the project environment using Anaconda:
    Launch the Labelme GUI from the Anaconda Prompt:
    ```bash
    labelme
+
+## Usage
+
+Follow the steps below to annotate images and generate labeling images using Labelme.
+
+---
+
+### 1. Load Images
+When the Labelme window opens, click **Open** or **Open Dir** to load an image or an image directory.
+
+---
+
+### 2. Draw Annotations
+Once an image is displayed, select a desired labeling tool from the left toolbar, such as:
+- **Polygons**
+- **Rectangle**
+- ...
+- **AI-Polygon**
+- **AI-Mask**
+
+Use the selected tool to draw annotations on the image.
+
+---
+
+### 3. Assign Class Labels
+1. Select the annotated shape.
+2. Double-click the shape to assign a label.
+3. Enter the class name (e.g., `car`, `person`, `object`) and confirm.
+
+---
+
+### 4. Save Annotations
+Click the **`Save`** button to store the annotation.
+After saving, a corresponding **`.json`** file will be created in the image directory, containing the annotation and label information.
+
+---
+
+### 5. Generate Labeling Images from JSON
+After saving your annotations, you can convert the JSON files into labeling images.
+This will create a corresponding labeling image in the label folder for each JSON file, with the same filename and image size as the original.
+
+Note: The class-to-color mapping in the labeling images may need to be adjusted according to your project requirements.
+
+Run the following command in your environment:
+   ```bash
+   python json_to_labeling.py
