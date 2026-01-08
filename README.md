@@ -22,7 +22,7 @@ This project demonstrates a GUI-based approach for annotating images with polygo
 
 ---
 
-## Installation
+## Installation & Run
 
 Follow the steps below to set up the project environment using Anaconda:
 
@@ -40,8 +40,15 @@ Follow the steps below to set up the project environment using Anaconda:
 4. **Activate the Virtual Environment**  
    ```bash
    conda activate labelme
+   cd labelme
 
 5. **Install Required Libraries**
    Install all necessary dependencies from the requirements.txt file:
    ```bash
+   conda install pyqt -y
    pip install -r requirements.txt
+
+6. **Run Labelme**
+   Launch the Labelme GUI from the Anaconda Prompt:
+   ```bash
+   labelme
