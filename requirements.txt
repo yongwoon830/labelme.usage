@@ -1,0 +1,3 @@
+labelme
+opencv-python
+numpy
