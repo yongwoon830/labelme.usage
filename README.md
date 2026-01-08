@@ -36,3 +36,12 @@ Follow the steps below to set up the project environment using Anaconda:
    Create a dedicated environment named `labelme` with Python 3.9:
    ```bash
    conda create -n labelme python==3.9 -y
+
+4. **Activate the Virtual Environment**  
+   ```bash
+   conda activate labelme
+
+5. **Install Required Libraries**
+   Install all necessary dependencies from the requirements.txt file:
+   ```bash
+   pip install -r requirements.txt
