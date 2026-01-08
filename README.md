@@ -1,4 +1,4 @@
-# labelme.usage
+# labelme
 
 <img width="385" height="385" alt="Demo Screenshot" src="https://github.com/user-attachments/assets/952abbdf-e055-44c3-a3c4-08625c68da11" />
 
